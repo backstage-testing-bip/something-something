@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "something-something"
+  description: "this is somehting for sure"
+  annotations:
+    github.com/project-slug: backstage-testing-bip/something-something
+    backstage.io/techdocs-ref: url:https://github.com/backstage-testing-bip/something-something
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "backstage-testing-bip"
+  providesApis:
+    - something-something-api

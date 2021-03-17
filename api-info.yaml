@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: something-something-api
+  description: "this is somehting for sure"
+spec:
+  type: openapi
+  lifecycle: development
+  owner: "backstage-testing-bip"
+  definition:
+    $text: https://github.com/backstage-testing-bip/something-something/blob/main/openapi.yaml

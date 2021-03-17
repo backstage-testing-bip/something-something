@@ -1,0 +1,10 @@
+site_name: "something-something"
+site_description: "this is somehting for sure"
+site_addon: "something@@@"
+
+nav:
+  - Introduction: index.md
+  - Other: other.md
+
+plugins:
+  - techdocs-core
